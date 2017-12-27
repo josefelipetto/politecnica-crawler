@@ -1,0 +1,35 @@
+{
+  "name": "politecnica-crawler",
+  "version": "1.0.0",
+  "description": "A simple crawler integrated with Amazon SNS",
+  "main": "crawler.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/josefelipetto/politecnica-crawler.git"
+  },
+  "keywords": [
+    "crawler",
+    "nodejs",
+    "sns",
+    "push",
+    "notifications",
+    "cheerio",
+    "url-parser"
+  ],
+  "author": "José Henrique Medeiros Felipetto",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/josefelipetto/politecnica-crawler/issues"
+  },
+  "homepage": "https://github.com/josefelipetto/politecnica-crawler#readme",
+  "dependencies": {
+    "aws-sdk": "^2.175.0",
+    "cheerio": "^1.0.0-rc.2",
+    "dotenv": "^4.0.0",
+    "request": "^2.83.0",
+    "url-parse": "^1.2.0"
+  }
+}
