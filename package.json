@@ -27,7 +27,6 @@
   "homepage": "https://github.com/josefelipetto/politecnica-crawler#readme",
   "dependencies": {
     "aws-sdk": "^2.175.0",
-    "cheerio": "^1.0.0-rc.2",
     "dotenv": "^4.0.0",
     "request": "^2.83.0",
     "url-parse": "^1.2.0"
